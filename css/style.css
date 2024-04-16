@@ -1,0 +1,75 @@
+.fonte_logo {
+    font-family: "Black Ops One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container_cabecalho {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.navbar {
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: orange;
+    color: black;
+    font-style: normal;
+}
+
+.container_corpo {
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container_rodape {
+    background-color: orange;
+    color: black;
+    font-style: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 32px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+.card img {
+    max-height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-body {
+    text-align: justify;
+    flex-grow: 1;
+}
+
+.card_footer {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 16px;
+}
+
+.row:last-child {
+    margin-bottom: 32px;
+}
+
+.container_rodape_copyright {
+    font-size: 16px;
+    margin-top: 12px;
+}
